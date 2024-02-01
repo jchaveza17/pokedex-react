@@ -1,5 +1,3 @@
-import React from 'react';
-
 function PokemonCard({ name, types, id, sprite, onCardClick }) {
   const handleClick = () => {
     onCardClick({ name, types, id, sprite });

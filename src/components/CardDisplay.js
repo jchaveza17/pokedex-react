@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import PokemonCard from './PokemonCard';
 import TypeDropdown from './Dropdown';
 import SearchBar from './SearchBar';
